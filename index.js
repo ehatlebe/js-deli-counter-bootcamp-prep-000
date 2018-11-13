@@ -1,4 +1,5 @@
 function takeANumber(deliLine, newPerson) {
+  // console.log(`deliLine: ${deliLine}`)
   deliLine.push(newPerson);
   // console.log(`deliLine: ${deliLine}`)
 	// console.log(`deliLine.slice(-1): ${deliLine.slice(-1)}`);
