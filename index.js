@@ -24,10 +24,11 @@ function currentLine(line) {
   if (line.length === 0) {
     return `The line is currently empty.`;
   } else {
+    let lineCounter = [];
     for (let i = 0; i < line.length; i++) {
-      lineCounter[i] = `The line is currently: . ${line[i]}`;
-      return lineCounter;
+      lineCounter[i] = `The line is currently: ${line.indexOf(i)}. ${line[i]}`;
     };
+    return lineCounter;
   };
 };
 currentLine();
