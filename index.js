@@ -6,7 +6,7 @@ function takeANumber(deliLine, newPerson) {
 takeANumber();
 
 function nowServing(servingLine) {
-	if (servingLine === 0) {
+	if (servingLine.length === 0) {
 		return `There is nobody waiting to be served!`;
 	};
 };
