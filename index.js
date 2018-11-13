@@ -23,7 +23,9 @@ nowServing();
 function currentLine(line) {
   if (line.length === 0) {
     return `The line is currently empty.`;
-  }
-  // return `The line is currently: 1. Ada, 2. Grace`
+  } else {
+    return `The line is currently: 1. Ada, 2. Grace`
+  };
+  
 };
 currentLine();
