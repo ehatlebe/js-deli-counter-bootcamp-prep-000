@@ -25,7 +25,7 @@ function currentLine(line) {
     return `The line is currently empty.`;
   } else {
     let lineCounter = [];
-    for (let i = 0; i < line.length; i++) {
+    for (let i = 0; i < line.length; ++i) {
       lineCounter[i] = `The line is currently: ${parseInt(line.indexOf(i))+ 1}. ${line[i]}`;
     };
     return lineCounter;
