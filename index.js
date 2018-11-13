@@ -13,7 +13,7 @@ function nowServing(servingLine) {
     personNowServed = servingLine.shift()
     console.log(servingLine);
     console.log(personNowServed);
-    return `Currently serving ${personNowServed}.
+    return `Currently serving ${personNowServed}.`;
   };
 };
 nowServing();
