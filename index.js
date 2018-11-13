@@ -14,7 +14,7 @@ function nowServing(servingLine) {
 		return `There is nobody waiting to be served!`;
 	} else {
     let personNowServed = servingLine.shift();
-    // console.log(`servingLine: ${servingLine})`;
+    // console.log(`servingLine: ${servingLine}`);
     return `Currently serving ${personNowServed}.`;
   };
 };
@@ -25,7 +25,7 @@ function currentLine(line) {
     return `The line is currently empty.`;
   } else {
     for (let i = 0; i < line.length; i++) {
-      
+
       return `The line is currently: 1. Ada, 2. Grace`
     };
   };
