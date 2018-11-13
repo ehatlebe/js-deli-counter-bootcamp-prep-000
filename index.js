@@ -1,6 +1,8 @@
 function takeANumber(deliLine, newPerson) {
   deliLine.push(newPerson);
-	console.log(`deliLine: ${deliLine}`);
+  // console.log(`deliLine: ${deliLine}`)
+	// console.log(`deliLine.slice(-1): ${deliLine.slice(-1)}`);
+	// console.log(`deliLine.length: ${deliLine.length}`);
   return `Welcome, ${deliLine.slice(-1)}. You are number ${deliLine.length} in line.`;
 };
 takeANumber();
