@@ -27,7 +27,7 @@ function currentLine(line) {
     let lineCounter = [];
     let lineNumber = 0;
     for (let i = 0; i < line.length; ++i) {
-      lineCounter[i] = `The line is currently: ${lineNumber +=)}. ${line[0]}`;
+      lineCounter[i] = `The line is currently: ${lineNumber = lineNumber + 1)}. ${line[0]}`;
     };
     return lineCounter;
   };
