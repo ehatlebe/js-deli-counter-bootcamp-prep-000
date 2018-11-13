@@ -25,7 +25,7 @@ function currentLine(line) {
     return `The line is currently empty.`;
   } else {
     for (let i = 0; i < line.length; i++) {
-      lineCounter = `The line is currently: . ${line[i]}`;
+      lineCounter[i] = `The line is currently: . ${line[i]}`;
       return lineCounter;
     };
   };
