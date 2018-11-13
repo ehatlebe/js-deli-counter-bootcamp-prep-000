@@ -26,6 +26,6 @@ function currentLine(line) {
   } else {
     return `The line is currently: 1. Ada, 2. Grace`
   };
-  
+
 };
 currentLine();
